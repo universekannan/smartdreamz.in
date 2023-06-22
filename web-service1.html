@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Build Dreamz - Smart Dreamz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/slitslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Theme skin -->
+  <link id="t-colors" href="skins/default.css" rel="stylesheet" />
+  <!-- boxed bg -->
+  <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/idea.png" />
+
+ <!-- =======================================================
+    Theme Name: SMART INDIA DREAMZ pvt. Ltd.,
+    Theme URL: https://smartdreamz.com
+    Author: Smart Dreamz
+    Author URL: https://smartdreamz.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- toggle top area -->
+    <div class="hidden-top">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><strong>We are available for any custom works this month</strong></li>
+              <li>Main office: Nagercoil, Kanyakumari,Tamilnadu,  South India</li>
+              <li>Call us <i class="icon-phone"></i> (+91) 948 73 111 74</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <!-- hidden top area toggle link -->
+        <div id="header-hidden-link">
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
+        </div>
+        <!-- end toggle link -->
+        <div class="row nomargin">
+          <div class="span12">
+            <div class="headnav">
+              <ul>
+                <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
+                <li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
+              </ul>
+            </div>
+            <!-- Signup Modal -->
+            <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword2" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign up</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signup modal -->
+            <!-- Sign in Modal -->
+            <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputText">Username</label>
+                    <div class="controls">
+                      <input type="text" id="inputText" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSigninPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSigninPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign in</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signin modal -->
+            <!-- Reset Modal -->
+            <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputResetEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputResetEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Reset password</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      We will send instructions on how to reset your password to your inbox
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end reset modal -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+			   <h1><center> <strong> <font face="verdana" color="black">SMART INDIA DREAMZ Pvt. Ltd.,</font> </strong> </center> </h1>
+             </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+				   <ul class="nav topnav">
+                    <li class="dropdown active">
+<a href="index.html">Home <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                   	    <li><a href="about.html">About us</a></li>
+                        <li><a href="">Mission & Vision</a></li>
+                        <li><a href="price-const.html">Pricing boxes</a></li>
+                       <!-- <li><a href="404.html">Materials Sales</a></li> -->
+					  </ul>
+                    </li>
+                    <li class="dropdown">
+                     <a href="#">Services <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="index-alt3.html"> Web Design </a></li>
+                        <li><a href="web-service1.html"> App Development </a></li>
+						<li><a href="web-service1.html"> E-Commerce Website </a></li>
+						<li><a href="web-service1.html"> Mobile Applications </a></li>
+						<li><a href="web-service1.html"> Business Solutions </a></li>
+						<li><a href="web-service1.html"> SEO Services </a></li>
+						<li><a href="web-service1.html"> Software Development </a></li>
+						</ul>
+                    </li>
+                    <li class="dropdown">
+                       <a href="#">  Hosting <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="web-hoisting.html">cPanel </a></li>
+                      <!--  <li><a href="web-hoisting.html">Plesk </a></li>-->
+                        <li><a href="web-hoisting.html">WordPress</a></li>
+                      	 <li><a href="web-hoisting.html">VPS</a></li>
+						 <li><a href="web-hoisting.html">Dedicated Server </a></li>
+						 <li><a href="web-hoisting.html">Cloud Server </a></li>
+						<!-- <li><a href="web-hoisting.html">amazon Server </a></li>-->
+						
+						  </ul>
+                        </li>
+                    <li class="dropdown">
+                      <a href="#">Other Dreams <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+					    <li><a href="index-alt2.html"> Build Dreamz </a></li>
+                        <li><a href="index-alt3.html"> Web Dreamz </a></li>
+						<li><a href="index-alt4.html"> Edu Dreamz </a></li>
+						<li><a href="index-alt5.html"> Print Dreamz </a></li>
+						<li><a href="index-alt6.html"> Green Dreamz </a></li>
+						<li><a href="index-alt7.html"> Event Dreamz </a></li>
+						<li><a href="index-alt8.html"> Craft Dreamz </a></li>
+						<li><a href="index-alt1.html"> Travel Dreamz </a></li>
+                      </ul>
+                    </li>
+					<li>
+					 <li class="dropdown">
+                      <a href="#">Galary </i></a>
+					  </li>  
+                    <li>
+                      <a href="contact.html">Contact </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+	  <!-- end slider -->
+    </section>
+       <section class="callaction">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="big-cta">
+              <div class="cta-text">
+                <h3>We've created more than <span class="highlight"><strong>50 websites</strong></span> this year!</h3>
+				</div>
+              <div class="cta floatright">
+                <a class="btn btn-large btn-theme btn-rounded" href="#">Request a quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		          <!-- ABI Foundations Page View -->                 
+      <!-- end slider -->
+       
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <h2><strong>Smart Technologies </strong></h2>
+            <p>
+             Smart Technologies is a complete IT solutions company, 
+			 providing software development and IT services to corporations worldwide. 
+			 Smart's world-class offshore services offer cutting-edge IT solutions across
+			 a range of industry and technology segments to Enterprises and Independent Software Vendors (ISVs).
+			 An ability to innovate, a high level of technical expertise and a strong commitment to our customer's 
+			 success give Smart Tech its competitive edge in delivering complete end-to-end solutions that meet a 
+			 variety of business and technology requirements.
+
+			Our software development and IT services help you meet deadlines, accelerate time to market,
+			confirm to the highest quality standards and provide you the highly skilled resources you need 
+			to maintain your competitive edge. All this, while you continue to remain cost efficient and focus 
+			on the business of growing your business.
+			
+			Our skilled and experienced people will cater to the client's
+			specific requirements. We deliver our product only if client is 100% satisfied. 
+			Our Pricing is very competitive compared to our uncompromised quality.We don't limit the 
+			timing to serve you. You can reach us 24*7 , We believe that Innovation is the driving force behind our success. 
+			So our Innovations will help you to cut down your expenses drastically.
+			
+            </p>
+          </div>
+          <div class="span6">
+            <!-- start flexslider -->
+            <div class="flexslider">
+              <ul class="slides">
+			  
+                <li>
+                  <img src="img/works/thumbs/about/image-14.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="img/works/thumbs/about/image-15.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="img/works/thumbs/about/image-16.jpg" alt="" />
+                </li>
+				 <li>
+                  <img src="img/works/thumbs/about/image-11.jpg" alt="" />
+                </li>
+				 <li>
+                  <img src="img/works/thumbs/about/image-12.jpg" alt="" />
+                </li>
+				 <li>
+                  <img src="img/works/thumbs/about/image-13.jpg" alt="" />
+                </li>
+				
+              </ul>
+            </div>
+            <!-- end flexslider -->
+          </div>
+        </div>
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+		
+		
+           <!-- end divider -->
+        <div class="row">
+          <div class="span12">
+            <h4>We Provide you the best IT solutions</h4>
+          </div>
+          <div class="span3">
+            <img src="img/dummies/web/SEO-19.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Software </strong>
+              </p>
+              <p>
+              Custom online and offline software development service at affordable pricing with best quality for your business needs. 
+              </p>
+			  
+            </div>
+          </div>
+          <div class="span3">
+            <img src="img/dummies/web/SEO-22.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Web Designing</strong>
+              </p>
+              <p>
+               HTML, Wordpress and Shopify website with unique design and inbuilt features to promote your business worldwide.
+              </p>
+            </div>
+          </div>
+          <div class="span3">
+            <img src="img/dummies/web/SEO-20.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Mobile App</strong>
+              </p>
+              <p>
+               Hybrid Mobile app front end and back end development with cloud data storage to simplify your requirements.
+              </p>
+            </div>
+          </div> 
+		  
+
+          <div class="span3">
+            <img src="img/dummies/web/SEO-08.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Seo Analysis & Marketing </strong>
+              </p>
+              <p>
+         		   We deliver measurable SEO results that is there for all to see in affordable costs to promote your website.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+      
+	  <!-- end divider -->
+	  
+	             <!-- end divider
+        <div class="row">
+          <div class="span12">
+            <h4>We Provide you the best IT solutions</h4>
+          </div>
+          <div class="span3">
+            <img src="img/dummies/web/SEO-19.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Software </strong>
+              </p>
+              <p>
+              Custom online and offline software development service at affordable pricing with best quality for your business needs. 
+              </p>
+			  
+            </div>
+          </div>
+          <div class="span3">
+            <img src="img/dummies/web/SEO-22.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Web Designing</strong>
+              </p>
+              <p>
+               HTML, Wordpress and Shopify website with unique design and inbuilt features to promote your business worldwide.
+              </p>
+            </div>
+          </div>
+          <div class="span3">
+            <img src="img/dummies/web/SEO-20.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Mobile App</strong>
+              </p>
+              <p>
+               Hybrid Mobile app front end and back end development with cloud data storage to simplify your requirements.
+              </p>
+            </div>
+          </div> 
+		  
+
+          <div class="span3">
+            <img src="img/dummies/web/SEO-08.png" alt="" class="img-polaroid" />
+            <div class="roles">
+              <p class="lead">
+                <strong>Seo Analysis & Marketing </strong>
+              </p>
+              <p>
+         		   We deliver measurable SEO results that is there for all to see in affordable costs to promote your website.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- divider -->
+		
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+      
+	  <!-- end divider -->
+
+	  
+	  
+        <div class="row">
+          <div class="span6">
+            <h4>Our bunch of  <b> smart solutions </b> </h4>
+            <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+							.Net Solution </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <p>
+                    smart solutions .Net capabilities at its best to build reliable, secure and scalable web and enterprise based web applications. Due to it’s powerful and scalable platform consisting servers technologies, it allow us… Read More</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+							Java (J2EE/J2ME) Solutions </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                    smart solutions helps you get the services of experienced JAVA (J2EE/J2ME) professionals for all your enterprise, web & mobile development based requirements… Read More  </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+							iOS (iPhone/iPad) Solutions </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                    At smart solutions, we transform concepts/ideas into business opportunities with our cutting edge iPhone applications, games and learning solutions…Read More
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+							Blockchain Application development  </a>
+                </div>
+                <div id="collapseFour" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                     As a top rated Blockchain application development company, 
+					 we help organizations to identify the business processes they can decentralize and build solutions… Read More
+                </p>  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <!-- -->
+		  
+                    <!-- end divider -->
+        <div class="row">
+          <div class="span6">
+          <br/><br/><br/>
+            <div class="accordion" id="accordion3">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapsefive">
+							Lamp Solution </a>
+                </div>
+                <div id="collapsefive" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <p>
+                    smart solutions offers robust LAMP & OOPs based development solutions on all the major frameworks 
+					(e.g. CodeIgniter (CI), Zend and YII), Advanced languages such as Python (Django framework) 
+					and open source CMS… Read More</div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseSix">
+							Open Source CMS Solutions </a>
+                </div>
+                <div id="collapseSix" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                   smart solutions assures enhanced flexibility in managing internet, intranet, extranet and portal 
+				   content through customized 
+					open source solutions and content management systems, e.g., WordPress, Magento etc… Read More </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseSeven">
+							Android Solutions</a>
+                </div>
+                <div id="collapseSeven" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                  smart solutions leverages the capabilities of latest Android tools to develop feature-rich and interactive 
+					apps and games for your smartphone and tabs… Read More</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseEight">
+							Product Engineering  </a>
+                </div>
+                <div id="collapseEight" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                   Product engineering at Finoit starts with innovating the idea to designing,
+				   developing and even testing the final product by an expert team of tech enthusiasts.
+				   We ensure the delivery of the best services… Read More
+                 </p>  </div>
+                </div>
+              </div>
+            </div>
+          </div> </div></div> 
+		  
+		  <!--End slider-->
+		  
+		          <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+        <div class="row">
+          <div class="span12">
+            <h4>Our <strong>Services </strong></h4>
+            <ul id="mycarousel" class="jcarousel-skin-tango recent-jcarousel clients">
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web1.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web2.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web3.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web4.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web5.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web6.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web7.png" class="client-logo" alt="" />
+					</a>
+              </li>
+           <li>
+                <a href="#">
+					<img src="img/dummies/web/Web1.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web2.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/web/Web3.png" class="client-logo" alt="" />
+					</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+		  +++++
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Browse pages</h5>
+              <ul class="link-list">
+                <li><a href="#">About our company</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Meet our team</a></li>
+                <li><a href="#">Explore our portfolio</a></li>
+                <li><a href="#">Get in touch with us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Important stuff</h5>
+              <ul class="link-list">
+                <li><a href="#">Press release</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Career center</a></li>
+                <li><a href="#">Smart forum</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Smart photostream</h5>
+              <div class="flickr_badge">
+                <script type="text/javascript" src=""></script>
+              </div>
+              <div class="clear">
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Get in touch with us</h5>
+              <address>
+								<strong>SMART INDIA DREAMZ Pvt. Ltd.,</strong><br>
+								 Nagercoil, Kanyakumari Dist<br>
+								 Tamilnadu, South INDIA
+					 		</address>
+              <p>
+                <i class="icon-phone"></i> (+91) 948 73 111 74 <br>
+                <i class="icon-envelope-alt"></i> sidpro@smartdreamz.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p>
+                <span>&copy; SMART INDIA DREAMZ Pvt. Ltd., - All right reserved.</span>
+                </p>
+                <div class="credits">
+                  <!--
+                      -->
+                </div>
+              </div>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>

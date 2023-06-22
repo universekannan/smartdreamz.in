@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Build Dreamz - Smart Dreamz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/slitslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Theme skin -->
+  <link id="t-colors" href="skins/default.css" rel="stylesheet" />
+  <!-- boxed bg -->
+  <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/idea.png" />
+
+ <!-- =======================================================
+    Theme Name: SMART INDIA DREAMZ pvt. Ltd.,
+    Theme URL: https://smartdreamz.com
+    Author: Smart Dreamz
+    Author URL: https://smartdreamz.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- toggle top area -->
+    <div class="hidden-top">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><strong>We are available for any custom works this month</strong></li>
+              <li>Main office: Nagercoil, Kanyakumari,Tamilnadu,  South India</li>
+              <li>Call us <i class="icon-phone"></i> (+91) 959 759 76 76</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <!-- hidden top area toggle link -->
+        <div id="header-hidden-link">
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
+        </div>
+        <!-- end toggle link -->
+        <div class="row nomargin">
+          <div class="span12">
+            <div class="headnav">
+              <ul>
+                <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
+                <li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
+              </ul>
+            </div>
+            <!-- Signup Modal -->
+            <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword2" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign up</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signup modal -->
+            <!-- Sign in Modal -->
+            <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputText">Username</label>
+                    <div class="controls">
+                      <input type="text" id="inputText" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSigninPassword">Password</label>
+                    <div class="controls">
+                      <input type="password" id="inputSigninPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Sign in</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signin modal -->
+            <!-- Reset Modal -->
+            <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputResetEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputResetEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Reset password</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      We will send instructions on how to reset your password to your inbox
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end reset modal -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+			   <h1><center> <strong> <font face="verdana" color="black">SMART INDIA DREAMZ Pvt. Ltd.,</font> </strong> </center> </h1>
+             </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="dropdown active">
+                      <a href="index.html">Home <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                   	    <li><a href="about.html">About us</a></li>
+                        <li><a href="about.html">Mission & Vision</a></li>
+                        <li><a href="price-const.html">Pricing boxes</a></li>
+                        <li><a href="404.html">Materials Sales</a></li>
+					  </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Services <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="con-service1.html"> CONSTRUCTION </a></li>
+                        <li><a href="construction.html"> INTERIOR DESIGN </a></li>
+						<li><a href="construction.html"> ARCHITECTURE </a></li>
+						<li><a href="construction.html"> LANDSCAPE </a></li>
+						<li><a href="construction.html"> EXTERIOR ELEVATION </a></li>
+						<li><a href="construction.html"> RENOVATION & REMODELING </a></li>
+						<li><a href="construction.html"> MODULAR KITCHEN </a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                       <a href="#">Materials <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="con-service1.html">Construction </a></li>
+                        <li><a href="portfolio-3cols.html">Paints </a></li>
+                        <li><a href="portfolio-4cols.html">Plumbing</a></li>
+                        <li><a href="portfolio-detail.html">Furnihing</a></li>
+						 <li><a href="portfolio-detail.html">Electricals</a></li>
+						 <li><a href="portfolio-detail.html">Flooring</a></li>
+						  <li><a href="portfolio-detail.html">Gardening</a></li>
+						</ul>
+                        </li>
+                    <li class="dropdown">
+                      <a href="#">Other Dreams <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+					    <li><a href="index-alt2.html"> Build Dreamz</a></li>
+                        <li><a href="index-alt3.html"> Web Dreamz</a></li>
+						<li><a href="index-alt4.html"> Edu Dreamz </a></li>
+						<li><a href="index-alt5.html"> Print Dreamz </a></li>
+						<li><a href="index-alt6.html"> Green Dreamz </a></li>
+						<li><a href="index-alt7.html"> Event Dreamz </a></li>
+						<li><a href="index-alt8.html"> Craft Dreamz </a></li>
+						<li><a href="index-alt1.html"> Travel Dreamz </a></li>
+                      </ul>
+                    </li>
+					<li>
+					 <li class="dropdown">
+                      <a href="#">Galary </i></a>
+					    <!--<i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                      <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
+                        <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
+                        <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
+                        <li><a href="post-right-sidebar.html">Post right sidebar</a></li> 
+                      </ul> -->
+                    </li>  
+                    <li>
+                      <a href="contact.html">Contact </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <section id="featured">
+      <!-- start slider -->
+      <div id="slider" class="sl-slider-wrapper demo-2">
+        <div class="sl-slider">
+          <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+            <div class="sl-slide-inner">
+              <div class="bg-img bg-img-1">
+              </div>
+              <h2><strong>Premium</strong> Quality </h2>
+              <blockquote>
+                <p>
+             " We are dedicated to providing industry leading service and quality to our clients." 
+			 
+
+                </p>
+                <cite> Build Dreamz</cite>
+              </blockquote>
+            </div>
+          </div>
+          <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+            <div class="sl-slide-inner">
+              <div class="bg-img bg-img-2">
+              </div>
+              <h2><strong>Reasonable</strong> Price </h2>
+              <blockquote>
+                <p>
+                 " This is our way to create a long-lasting impression with our customer."
+                </p>
+                <cite>Build Dreamz</cite>
+              </blockquote>
+            </div>
+          </div>
+          <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+            <div class="sl-slide-inner">
+              <div class="bg-img bg-img-3">
+              </div>
+              <h2><strong>Happy  </strong> Customers </h2>
+              <blockquote>
+                <p>
+                 " our customers do the marketing for us through word of mouth.”
+                </p>
+                <cite>Build Dreamz</cite>
+              </blockquote>
+            </div>
+          </div>
+          <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+            <div class="sl-slide-inner">
+              <div class="bg-img bg-img-4">
+              </div>
+              <h2><strong>Awesome</strong> features</h2>
+              <blockquote>
+                <p>
+                  " Our service is well-managed and is executed using advanced techniques and experts."
+                </p>
+                <cite>SBuild Dreamz</cite>
+              </blockquote>
+            </div>
+          </div>
+          <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+            <div class="sl-slide-inner">
+              <div class="bg-img bg-img-5">
+              </div>
+              <h2><strong>Banking </strong> supports </h2>
+              <blockquote>
+                <p>
+                 " Affordable loans at attractive interest rates with simple documentation and flexible repayment schemes." 
+                </p>
+                <cite>Build Dreamz</cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <!-- /sl-slider -->
+        <nav id="nav-dots" class="nav-dots">
+          <span class="nav-dot-current"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </nav>
+      </div>
+      <!-- /slider-wrapper -->
+	  
+      <!-- end slider -->
+    </section>
+    <section class="callaction">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="big-cta">
+              <div class="cta-text">
+                <h3>We've Manage more than <span class="highlight"><strong>20 Construction sites</strong></span> this year!</h3>
+              </div>
+              <div class="cta floatright">
+                <a class="btn btn-large btn-theme btn-rounded" href="#">Request a quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="row">
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-briefcase icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Structural Consultant</h6>
+                    <p>
+                     We are committed to providing fast track solutions in Structural Analysis, designing, 
+					 preparing structural drawings and site support to meet Clients’ schedules.
+					 including site investigation, soil test, planning and layout,
+                    </p>
+                    <a href="construction.html">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-home icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Building Construction </h6>
+                    <p>
+                     We hold a construction team of dedicated professionals,
+					 committed at providing high quality service to every project.
+					 It adopts modern approaches in construction and gives the trust of long-term support to its clients.
+
+
+                    </p>
+                    <a href="construction.html">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-info-sign icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Renovation / Repair</h6>
+                    <p>
+                    Whatever your home improvement project may be, we are dedicated to providing you with 
+					our industry leading service and quality.Whatever your project may be, we are dedicated to providing industry
+					leading service to our clients!
+                    </p>
+                    <a href="construction.html">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-cogs icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6> Materials Supply </h6>
+                    <p>
+                      We provides high-quality construction materials in the site. 
+					  We have a rich history of improving the wellbeing of those we serve through
+					  innovative building solutions, efficiency advancements, and efforts to promote a sustainable future.
+                    </p>
+                    <a href="price-const.html">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+		
+		<!-- end of table -->
+	
+        <!-- Portfolio Projects -->
+        <div class="row">
+          <div class="span12">
+            <h4 class="heading">Some of recent <strong>works</strong></h4>
+            <div class="row">
+              <section id="projects">
+                <ul id="thumbs" class="portfolio">
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Classic Interior" href="img/works/full/buld/image-b1.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b1.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-1" data-type="icon">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Amazing Commercials" href="img/works/full/buld/image-b2.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b2.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Modern Vintages" href="img/works/full/buld/image-b3.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b3.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Budget Houses" href="img/works/full/buld/image-b4.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b4.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-4" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Efficient Planning" href="img/works/full/buld/image-b5.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b5.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-5" data-type="icon">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Aesthetic Appreciation" href="img/works/full/buld/image-b6.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b6.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="wonderful Landscapes" href="img/works/full/buld/image-b7.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b7.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Luxury Bungalow" href="img/works/full/buld/image-b8.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/works/thumbs/buld/image-b8.jpg" alt="SMART INDIA DREAMZ Pvt. Ltd.,">
+                  </li>
+                  <!-- End Item Project -->
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!-- End Portfolio Projects -->
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+        <div class="row">
+          <div class="span12">
+            <h4>Our  Business <strong> Partners</strong></h4>
+            <ul id="mycarousel" class="jcarousel-skin-tango recent-jcarousel clients">
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner1.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner2.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner3.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner4.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner5.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner6.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner7.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner8.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner9.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner10.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner11.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/Partner12.png" class="client-logo" alt="" />
+					</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="aligncenter">
+              <div id="twitter-wrapper">
+                <div id="twitter">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+     <!--Footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Printing Office</h5>
+              <ul class="link-list">
+                 <address>
+							<strong>SMART INDIA DREAMZ Pvt. Ltd.,</strong><br/>
+								 Villukuri Road,Aaluvilai, Kandanvilai (PO)<br/>
+								 Kanyakumari Dist, Tamilnadu, South INDIA <br/>
+								 
+					 		</address>
+						<p>
+                 <i class="icon-phone"></i>  (+91) 944 31 32 823 <br>
+                <i class="icon-envelope-alt"></i> smartdreamz2.0@gmail.com
+              </p>	
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Branch Office</h5>
+              <ul class="link-list">
+                <address>
+							<strong>SMART INDIA DREAMZ Pvt. Ltd.,</strong><br/>
+								 Main Road,Kandanvilai, Kanyakumari Dist<br/>
+								 Tamilnadu, South INDIA <br/>
+								
+					 		</address>
+							<p>
+                 <i class="icon-phone"></i>  (+91) 948 73 111 74 <br>
+                <i class="icon-envelope-alt"></i> smartdreamz2.0@gmail.com
+              </p>
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Smart Quick Links</h5>
+			 				<ul class="link-list">
+								<li><a href="about.html">About our company</a></li>
+								<li><a href="index.html">Our services</a></li>
+								<li><a href="about.html">Meet our team</a></li>
+								<li><a href="404.html">Explore our Shopping</a></li>
+								<li><a href="contact.html">Get in touch with us</a></li>
+							</ul>
+              <div class="flickr_badge">
+                <script type="text/javascript" src=""></script>
+              </div>
+              <div class="clear">
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Corporate Office</h5>
+              <address>
+							<strong>SMART INDIA DREAMZ Pvt. Ltd.,</strong><br/>
+								 Nagercoil, Kanyakumari Dist<br/>
+								 Tamilnadu, South INDIA
+					 		</address>
+              <p>
+                 <i class="icon-phone"></i> (+91) 959 759 76 76 <br>
+                <i class="icon-envelope-alt"></i> smartdreamz2.0@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p>
+               	<strong>  <span>&copy; SMART INDIA DREAMZ Pvt. Ltd.,  All rights reserved.</span>	</strong>
+                </p>
+                <div class="credits">
+                  <!--
+                      -->
+                </div>
+              </div>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
